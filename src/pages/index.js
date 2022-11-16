@@ -6,16 +6,16 @@ const IndexPage = () => {
   return (
     <Layout pageTitle='Home Page'>
       <main>
-        <p>Welcome to my Gatsby site!</p>
+        <h2>Welcome to my Gatsby site!</h2>
         <p>I'm making this by following the Gatsby Tutorial.</p>
-        <div className='images'>
+        <div>
           <StaticImage
-            style={{ height: 300, width: 300 }}
+            className='images'
             src='../images/cat.jpg'
             alt='Gatsby logo'
           ></StaticImage>
           <StaticImage
-            style={{ height: 300, width: 300 }}
+            className='images'
             alt='Clifford, a reddish-brown pitbull, dozing in a bean bag chair'
             src='../images/clifford.jpg'
           />

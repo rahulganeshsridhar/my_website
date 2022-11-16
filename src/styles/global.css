@@ -57,3 +57,7 @@ footer p {
   position: fixed;
   bottom: 0;
 }
+.images {
+  height: 300px;
+  width: 300px;
+}
