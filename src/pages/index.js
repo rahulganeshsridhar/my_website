@@ -1,6 +1,7 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react';
 import Layout from '../components/layout';
+import { images } from '../styles/home.module.css';
 
 const IndexPage = () => {
   return (
@@ -8,7 +9,7 @@ const IndexPage = () => {
       <main>
         <h2>Welcome to my Gatsby site!</h2>
         <p>I'm making this by following the Gatsby Tutorial.</p>
-        <div>
+        <div className={images}>
           <StaticImage
             className='images'
             src='../images/cat.jpg'
