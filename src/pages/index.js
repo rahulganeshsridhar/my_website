@@ -14,7 +14,7 @@ const IndexPage = () => {
     <UserProvider value={user}>
       <Layout pageTitle='Home Page'>
         <main>
-          <h2>Welcome to my Gatsby site! Sample page</h2>
+          <h2>Welcome to my Gatsby site! Sample page Version 1</h2>
           <p>I'm making this by following the Gatsby Tutorial.</p>
 
           <div className={images}>
